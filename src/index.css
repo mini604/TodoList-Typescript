@@ -1,0 +1,42 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:lightgray;
+  
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  height: 35px;
+  width: 225px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+li{
+  margin-top: 15px;
+}
+
+button{
+  height: 30px;
+  width: 60px;
+  background-color: blue;
+  color: white;
+  font-size: 1.05rem;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+}
